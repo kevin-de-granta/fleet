@@ -77,6 +77,7 @@ class Env(object):
     def set(self, section, option, value):
         return self.setConfItem(section=section, option=option, value=value)
 
+    # TODO: bug: section might be a new one never used before.
     def setConfItem(self, section, option, value):
         self.conf[section][option] = value
 
