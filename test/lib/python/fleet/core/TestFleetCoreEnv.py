@@ -2,7 +2,7 @@
 
 #
 # File Name:    TestFleetEnv.py
-# Function:     To test Fleet Env
+# Function:     To test Env of Fleet Core
 # Created by:   W. Wang (Kevin), ww288@cantab.net
 # Created on:   2017/10/01
 # Revised hist: revised by _____ on ____/__/__
@@ -10,12 +10,12 @@
 
 
 import unittest
-from fleet.core.env_fleet import FleetEnv
+from fleet.core.env_fleet import FleetCoreEnv
 
 
-class TestFleetEnv(unittest.TestCase):
+class TestFleetCoreEnv(unittest.TestCase):
     def setUp(self):
-        self.env = FleetEnv()
+        self.env = FleetCoreEnv()
         self.env.showAllConf()
 
     def test_db_name(self):
@@ -30,9 +30,9 @@ class TestFleetEnv(unittest.TestCase):
         pass
 
 if __name__ == '__main__':
-    print "Testing env of Fleet:"
+    print "Testing env of Fleet Core:"
     unittest.main()
-    #env = FleetEnv()
+    #env = FleetCoreEnv()
     #env.showAllConf()
 
 

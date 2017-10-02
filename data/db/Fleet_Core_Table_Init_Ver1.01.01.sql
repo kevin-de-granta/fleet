@@ -57,7 +57,7 @@ INSERT INTO wf_users (uuid, name, passwd, email, state, create_time) VALUES (rep
 SELECT * FROM wf_users;
 -- DROP TABLE wf_users;
 
-
+-- TODO: in future, it is possible to add one table named "wf_user_details"
 
 
 
