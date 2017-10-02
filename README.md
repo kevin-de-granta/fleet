@@ -3,11 +3,11 @@
 
 FLEET(Fleet) is designed to be, as in the initial plan, a Financial Lab for Evidence-Exploring Tasks.
 
-## Language(s)
+This platform is planned to support HPC via PBS and/or Spark.
 
-FLEET is developed in Python (Python 2.7.13, Anaconda 4.3.0 (64-bit)).
+## Getting Started
 
-## Enviroment Variable(s)
+### Enviroment Variable(s)
 
 Please use variable $FLEET_HOME to specifiy the application directory of FLEET.
 
@@ -18,9 +18,17 @@ export FLEET_HOME=$HOME/app/fleet
 export PYTHONPATH=$PYTHONPATH:$FLEET_HOME/lib/python
 ```
 
-## HPC Support
+### Run a Task from an Example Tool
 
+### Design Your Own Tools
 
+## Development Info
+
+### Language(s)
+
+FLEET is developed in Python (Python 2.7.13, Anaconda 4.3.0 (64-bit)).
+
+### Architecture
 
 ## Feedback
 

@@ -15,7 +15,7 @@ from fleet.core.env_fleet import FleetCoreEnv
 
 class TestFleetCoreEnv(unittest.TestCase):
     def setUp(self):
-        self.env = FleetCoreEnv()
+        self.env = FleetCoreEnv.GetInstance()
         self.env.showAllConf()
 
     def test_db_name(self):
@@ -32,7 +32,7 @@ class TestFleetCoreEnv(unittest.TestCase):
 if __name__ == '__main__':
     print "Testing env of Fleet Core:"
     unittest.main()
-    #env = FleetCoreEnv()
+    #env = FleetCoreEnv.GetInstance()
     #env.showAllConf()
 
 
