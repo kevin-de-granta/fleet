@@ -35,7 +35,9 @@ CREATE TABLE flt_sys_vars (
     descp TEXT,
     PRIMARY KEY (id)
 ) ENGINE=INNODB DEFAULT CHARSET=utf8;
-INSERT INTO flt_sys_vars (create_time, name, section, value) VALUES (now(), 'charset', 'database', 'utf8'); -- a test line
+INSERT INTO flt_sys_vars (create_time, section, name, value) VALUES (now(), 'database', 'engine', 'mysql'); -- a test line
+INSERT INTO flt_sys_vars (create_time, section, name, value) VALUES (now(), 'database', 'charset', 'utf8'); -- a test line
+INSERT INTO flt_sys_vars (create_time, section, name, value) VALUES (now(), 'database', 'dbname', 'FleetCore'); -- a test line
 SELECT * FROM flt_sys_vars;
 -- DROP TABLE flt_sys_vars;
 

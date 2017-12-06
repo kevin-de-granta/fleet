@@ -20,6 +20,8 @@ export PYTHONPATH=$PYTHONPATH:$FLEET_HOME/lib/python
 
 ### Run a Task from an Example Tool
 
+A tool is an implementation of one algorithm, model, visual, etc.
+
 ### Design Your Own Tools
 
 ## Development Info
